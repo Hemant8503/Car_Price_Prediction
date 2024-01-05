@@ -4,7 +4,7 @@ import pickle
 
 # Load the trained model
 
-model = pickle.load(open("C:\\Users\\hp\\Desktop\\car_price\\updated_model_CP.pkl" , 'rb'))
+model = pickle.load(open("updated_model_CP.pkl" , 'rb'))
 df = pd.read_csv("car data.csv")
 
 
