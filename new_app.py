@@ -5,7 +5,7 @@ import pickle
 # Load the trained model
 
 model = pickle.load(open("C:\\Users\\hp\\Desktop\\car_price\\updated_model_CP.pkl" , 'rb'))
-df = pd.read_csv("C:\\Users\\hp\\Desktop\\car_price\\car data.csv")
+df = pd.read_csv("car data.csv")
 
 
 # Define the user input interface
