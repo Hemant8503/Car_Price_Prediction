@@ -1,0 +1,1 @@
+Web : streamlit run "new_app.py"
